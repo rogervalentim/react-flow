@@ -68,7 +68,7 @@ export default function FlowFinance() {
   );
 
   return (
-    <div style={{ width: "90vw", height: "100vh", backgroundColor: "#000" }}>
+    <div style={{ width: "95vw", height: "100vh", backgroundColor: "#000" }}>
       <ReactFlow
         nodes={nodes}
         edges={edges}

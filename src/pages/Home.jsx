@@ -8,7 +8,7 @@ const Home = () => {
         {data.homeContent.map((home) => (
             <div className="home-content" key={home}>
                 <h1>{home.title}</h1>
-                <img style={{ width: "600px"}} src={home.image} alt="image home" />
+                <img style={{ width: "300px"}} src={home.image} alt="image home" />
             </div>
         ))}
     </section>
